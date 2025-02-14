@@ -12,3 +12,10 @@ jobs:
  
       - name: Run Bash script
         run: echo "hello"
+
+      - name: Execute multiple commands
+        run: |
+          ls 
+          echo "hi there"
+    
+
